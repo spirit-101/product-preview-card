@@ -109,6 +109,10 @@ body {
   padding-right: 0.7rem;
 }
 
+.sale-price span {
+  text-decoration: line-through;
+}
+
 @media only screen and (max-width: 24em) {
   .wrapper {
     grid-template-columns: 1fr;
