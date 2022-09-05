@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat";
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.product-img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.title-box {
+  padding: 13%;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-family: "Fraunces";
+  font-size: 3.7rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.title-text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 3rem;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-family: "Fraunces";
+  margin-right: 2rem;
+  font-size: 3.6rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.sale-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  background: none;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  font-family: "Montserrat";
+  /* padding: 1.8rem 9rem; */
+  padding: 1.8rem 0;
+  width: 100%;
+  border-radius: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: hsl(158, 36%, 23%);
+}
+
+.icon {
+  padding-right: 0.7rem;
+}
+
+@media only screen and (max-width: 24em) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .product-img {
+    max-height: 290px;
+    width: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .title-box {
+    padding: 5%;
+  }
+
+  .title {
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .title-text {
+    margin-bottom: 2rem;
+  }
+}
