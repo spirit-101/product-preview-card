@@ -4,7 +4,7 @@
 
 <hr>
 
-🌐 [View the live site](https://spirit-101.github.io/stats-preview-card-component/)
+🌐 [View the live site](https://spirit-101.github.io/product-preview-card/)
 
 🧠 [Check out the solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-pLtan2EGRj)
 
@@ -24,7 +24,7 @@
 
 - Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-- You can see a live site at [QR Code Component](https://spirit-101.github.io/stats-preview-card-component/)
+- You can see a live site at [QR Code Component](https://spirit-101.github.io/product-preview-card/)
 
 ### Built with
 
